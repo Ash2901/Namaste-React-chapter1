@@ -1,0 +1,37 @@
+	1. What is Element?
+		a. Elements are smallest building block of react components. An elements specifies what should be there is our UI.
+		b. An element is a plain object describing what we want to appear in terms of the DOM node.
+	
+	2. Difference between library and framework?
+		a. Both libraries and frameworks are the code written by someone else.
+		b. By using library we can control flow of program while in framework, flow is controlled by framework.
+		c. Library is called by programmer contrary to this framework (contains library) calls the code.
+	
+	3. What is CDN? Why do we use it?
+		a. CDN (Content Delivery Network) is a network of interconnected servers that speeds up webpage loading for data-heavy applications.
+		b. CDN improves website speed by placing content in different edge servers around the globe and delivering it to visitors from nearest server.
+		
+	4. Why is React known as React?
+		a. It is called because of its core feature, which is its ability to "react" or respond dynamically to changes in data.
+		
+	5. What is cross-origin in the script tag?
+		a. It sets the mode of the request to an HTTP CORS.
+		b. Web pages often make requests to load resources on other server.
+		c. It allows resources on a web page to be requested from another domain outside their own domain.
+		d. It defines a way how browser and server can interact to determine whether it is safe to allow the cross-origin request.
+		
+	6. What is the difference between React and ReactDOM?
+		a. React : It is a core file of react(used to build user interfaces).
+		b. ReactDOM: It is a react library used for DOM manipulation.
+		
+	7. What is difference between react.development.js and react.production.js files via CDN?
+		a. Development : More developer friendly, readable, will take more size. (react dev tools, debugging environment)
+		b. Production : Minified code that is not developer friendly as it is focused on decreasing in file size, code efficiency.(performance will be faster).
+		
+	8. What are async and defer?
+		a. These are Boolean attributes used with script tag for efficiency.
+		b. Async : Scripts get fetched asynchronously along with parsing.
+			i. Once scripts is available in browser, HTML parsing stops and scripts gets executed.
+			ii. Once script execution is done, HTML parsing starts.
+		c. Differ : Script is made available during HTML parsing, once HTML parsing stops then scripts starts executing.
+			
